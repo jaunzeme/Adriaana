@@ -1,0 +1,141 @@
+*
+{margin: 0;
+padding: 0;
+font-family: sans-serif;}
+
+.background
+{position: absolute;
+top: 0;
+left: 0;
+width: 100vw;
+height: 100vh;
+background-color: #000000}
+
+.background-image
+{position: absolute;
+width: 100%;
+height: 100%;
+object-fit: cover;
+object-position: center}
+
+.rectangle
+{height:550px;
+width:1000px;
+background-color:rgba(255, 255, 255, 0.800);
+display:block;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%)}
+
+.back
+{text-decoration: none;
+color:black}  
+
+.arrow2 {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    margin-left:15px;
+    margin-top:15px
+  }
+
+  .left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+  }
+
+.title
+{font-family:Arial,Helvetica,sans-serif;
+margin-left:35px;
+padding:20px}
+
+.text
+{width:400px;
+font-family:Arial,Helvetica,sans-serif;
+margin-left:60px;
+margin-top:15px}
+
+.list
+{width:200px;
+font-family:Arial,Helvetica,sans-serif;
+margin-left:8%;
+list-style-type:none;
+margin-top:20px;
+text-align:left}
+
+.box
+{width:10px;
+height:10px;
+border:1px solid black;
+float:left;
+margin-right:5%;
+margin-top:2%}
+
+.black
+{background-color:black}
+
+.white
+{background-color:white}
+
+.red
+{background-color:red}
+
+.orange
+{background-color:orange}
+
+.yellow
+{background-color:yellow}
+
+.green
+{background-color:green}
+
+.blue
+{background-color:blue}
+
+.purple
+{background-color:purple}
+
+.brown
+{background-color:brown}
+
+img.maisins
+{width:300px;
+height:450px;
+position:absolute;
+top:50%;
+left:78%;
+transform:translate(-50%,-50%)}
+
+img.apaksvela
+{width:500px;
+height:350px;
+position:absolute;
+top:50%;
+left:68%;
+transform:translate(-50%,-50%)}
+
+img.kruzes
+{width:360px;
+height:410px;
+position:absolute;
+top:50%;
+left:75%;
+transform:translate(-50%,-50%)}
+
+img.skivji
+{width:460px;
+height:335px;
+position:absolute;
+top:50%;
+left:69%;
+transform:translate(-50%,-50%)}
+
+img.blodas
+{width:440px;
+height:340px;
+position:absolute;
+top:50%;
+left:70%;
+transform:translate(-50%,-50%)}
